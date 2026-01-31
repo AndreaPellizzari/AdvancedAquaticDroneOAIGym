@@ -63,7 +63,7 @@ Below are instructions for installing the Git integration for Jupyter-lab.
 
 _Di seguito sono indicate le istruzioni per l'installazione dell'integrazione Git per Jupyter-lab._
 
-1. Attivare l'ambiente conda ai-lab (```conda activate ai-lab```) nella directory principale.
+1. Attivare l'ambiente conda _ai-lab_ (```conda activate ai-lab```) nella directory principale.
 2. Controllare che il kernel Python sia quello giusto, lanciando il comando:
    ```sh
    jupyter kernelspec list
@@ -82,6 +82,17 @@ _Di seguito sono indicate le istruzioni per l'installazione dell'integrazione Gi
    git remote -v # confirm the changes
    ```
 6. Setup of module settings based on prerequisites.-->
+3. Se il kernel Python non appare, allora vi è un problema con l'env "_ai-lab_".
+4. Altrimenti eseguire nella directory dove effettuare il fetch della repo il seguente comando:
+   ```sh
+   jupyter-lab
+   ```
+   attivando così _jupyter-lab_ e non _jupyter notebook_.
+5. Successivamente, una volta aperta la app di server con _jupyter-lab_, cercare la funzione ```Terminale``` ed eseguire il comando
+   ```sh
+   conda install -c conda-forge jupyterlab-git
+   ```
+6. A questo punto operare correttamente il fetch della presente repo GitHub ```AndreaPellizzari/AdvancedAquaticDroneOAIGym``` nella cartella dove si sta eseguendo _jupyter-lab_, attraverso la estensione Git presente nella barra degli strumenti grigia presente a sinistra nella home.
 
 [contributors-shield]: https://img.shields.io/github/contributors/AndreaPellizzari/AdvancedAquaticDroneOAIGym.svg?style=for-the-badge
 [contributors-url]: https://github.com/AndreaPellizzari/AdvancedAquaticDroneOAIGym/graphs/contributors
