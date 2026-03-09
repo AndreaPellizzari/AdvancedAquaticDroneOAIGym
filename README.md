@@ -15,7 +15,7 @@
     <i>Examination project for academic course in artificial intelligence based on the "Advanced aquatic drone" OpenAI environment.</i>
     <br />
     <br />
-    <a href="https://github.com/AndreaPellizzari/AdvancedAquaticDroneOAIGym/tree/main/doc"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/AndreaPellizzari/AdvancedAquaticDroneOAIGym/tree/main/Documents"><strong>Explore the docs »</strong></a>
     <br />
     <a href="https://github.com/AndreaPellizzari/AdvancedAquaticDroneOAIGym/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
