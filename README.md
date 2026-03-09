@@ -69,8 +69,7 @@ For further information regarding the study conducted on the AI algorithm implem
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Below are all the steps you need to follow to start using the project.
 
 ### Dependencies installation
 
