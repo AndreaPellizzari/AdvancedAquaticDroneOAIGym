@@ -66,13 +66,15 @@ $$h(n) \leq \text{costo}(n,n') + h(n')$$
 per cui Manhattan la soddisfa perché: ogni passo cambia la distanza al massimo di 1, il costo di un passo è $\geq 1$ (per passi adiacenti, differenza di Manhattan tra $n$ e $n'$ è uguale a 1, il costo reale passo è uguale a 2 (open water) o 1 (station), dunque si verifica che: Caso open water: $1 \leq 2$ → ✅, Caso station: $1 \leq 1$ → ✅) e ciò garantisce che $A^{\ast}$ non deve riaprire nodi e una ricerca più efficiente, oltre che un comportamento stabile.
 
 È da notare, infine, che l'unica alternativa a nostra conoscenza era la eurisitica _distanza euclidea_, ma essa non è da preferire per il nostro ambiente per le seguenti motivazioni: nel nostro ambiente, griglia $10\times 10$ con movimento a celle (su, giù, destra, sinistra) il costo base per passo è 2 per cui abbiamo dei costi extra (seaweed) e possibili bonus (energy stations), il drone non si muove in linea retta continua ma per passi discreti sulla griglia. Dunque tutte le condizioni permettono di stabilire che una eventuale euristica distanza euclidea:
+
 $$h_E(n) = \sqrt{(x_n - x_g)^2+(y_n-y_g)^2}$$
+
 rappresenta linea retta, ma il drone non può muoversi in diagonale libera, invece deve fare passi ortogonali, per questo motivo la euristica distanza euclidea è dominata dalla euristica manhattan distance.
 
 Se il drone potesse muoversi in diagonale libera o nello spazio continuo 2D allora la scelta migliore sarebbe stata la euristica distanza euclidea.
 
 È da notare, inoltre, che la euristica potrebbe essere ancora ottimizzabile, infatti la euristica:
-$$h(n) = 2 \cdot \text{l1_norm}(n, \text{goal})$$
+$$h(n) = 2 \cdot \text{l1$\_$norm}(n, \text{goal})$$
 cioè Manhattan distance moltiplicata per il costo minimo per passo.
 
 La motivazione della scelta di tale euristica è dovuta inoltre ai vantaggi dati dalla sua implementazione in un contesto graph-search, ovvero: con graph-search ogni nodo viene espanso al massimo una volta.
