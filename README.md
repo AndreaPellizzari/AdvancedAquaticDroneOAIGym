@@ -1,6 +1,5 @@
 <a id="readme-top"></a>
 [![Contributors][contributors-shield]][contributors-url]
-[![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![Unlicense License][license-shield]][license-url]
 ![java-shield]
@@ -104,9 +103,6 @@ _Di seguito sono indicate le istruzioni per l'installazione dell'integrazione Gi
 
 [forks-shield]: https://img.shields.io/github/forks/AndreaPellizzari/AdvancedAquaticDroneOAIGym.svg?style=for-the-badge
 [forks-url]: [https://github.com/AndreaPellizzari/AdvancedAquaticDroneOAIGym](https://github.com/AndreaPellizzari/AdvancedAquaticDroneOAIGym)/network/members
-
-[stars-shield]: https://img.shields.io/github/stars/AndreaPellizzari/AdvancedAquaticDroneOAIGym.svg?style=for-the-badge
-[stars-url]: https://github.com/AndreaPellizzari/AdvancedAquaticDroneOAIGym/stargazers
 
 [issues-shield]: https://img.shields.io/github/issues/AndreaPellizzari/AdvancedAquaticDroneOAIGym.svg?style=for-the-badge
 [issues-url]: https://github.com/AndreaPellizzari/AdvancedAquaticDroneOAIGym/issues
